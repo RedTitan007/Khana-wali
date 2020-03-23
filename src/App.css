@@ -1,0 +1,44 @@
+
+.App {
+  text-align: center;
+  background-color:#DDDDDD;
+}
+
+.App-header {
+  background-color: #292c2f;
+  height: 90px;
+  padding: 30px;
+  color: white;
+  margin-bottom: 2rem;
+}
+.App-header h1{
+  font-size: 50px;
+	font-family: Brush Script MT;
+}
+.App-header h1 span {
+	color: #5383d3;
+}
+.App-header a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.search-form {
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px; 
+  /* value should be lesser to move left */
+}
+.search-filter {
+  max-width: 500px;
+  margin: 0 auto;
+}  
+
+
